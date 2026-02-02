@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background-color: lightgray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap:350px;
+}
+.logo{
+    width: 250px;
+}
+.subtitle{
+    font-size: 25px;
+    margin: 0;
+}
+.login-box{
+    background-color: white;
+    padding: 25px;
+    width: 300px;
+    border-radius: 6px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+label{
+    margin-top: 10px;
+    font-size: 14px;
+}
+button{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.links{
+    margin-top: 15px;
+    text-align: center;
+}
+.links a{
+    display: block;
+    margin-top: 10px;
+    text-decoration: none;
+}
+.create{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+hr{
+    height: 1px;
+    margin: 10px;
+}
